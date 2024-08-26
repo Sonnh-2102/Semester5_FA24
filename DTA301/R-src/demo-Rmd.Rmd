@@ -1,0 +1,12 @@
+---
+title: "Demo-Rmd"
+author: "Son"
+date: "2024-08-17"
+output: html_document
+---
+# Ctrl + Alt + I
+
+```{r}
+5 / 7
+```
+
