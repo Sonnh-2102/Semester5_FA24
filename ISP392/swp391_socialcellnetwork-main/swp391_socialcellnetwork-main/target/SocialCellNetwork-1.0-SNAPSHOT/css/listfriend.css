@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-search {
+        margin: 15px 0px;
+    }
+}
+    
+.body-content {
+    padding-top: 70px;
+    width: 100%;
+
+}
+
+.content-show-friend {
+    display: flex;
+    justify-content: center;
+
+}
+/*show friend*/
+
+.show-friend {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .show-friend {
+        width: 100%;
+
+    }
+}
+
+.show-friend p {
+    padding: 10px 30px 0px 30px;
+    font-size: 130%;
+}
+
+.show-friend img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.show-friend-header {
+    margin-left: 30px;
+}
+
+.show-friend-header img {
+    margin-left: 3.7%;
+    margin-right: 100%;
+}
+
+.show-friend .button-add-friend{
+    background: linear-gradient(to right,#9370DB, #59b6da);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.show-friend .button-delete{
+    background: linear-gradient(to right, #FF5733, #FFA500);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.show-friend .button-add-freind:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+    transform: scale(1.1);
+}
+.show-friend .button-delete:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.td-img{
+    padding-right:10px; 
+}
+
+.pop-up-chat-friend img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.pop-up-chat-friend input{
+    background-color: rgba(128, 128, 128, 0.18  );
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pop-up-chat-friend button{
+    padding: 20px 10px
+}

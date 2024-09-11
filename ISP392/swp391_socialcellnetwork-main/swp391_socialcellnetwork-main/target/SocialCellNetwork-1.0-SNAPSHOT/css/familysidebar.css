@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+.body-content-left img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar {
+    background: linear-gradient(to right,#9370DB, #87CEEB);
+    padding: 13px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.body-content-left div a{
+    color: black;
+    text-decoration: none;
+}
+
+.body-content-left div a i{
+    font-size: 20px;
+    padding: 15px 20px;
+    color:  rgba(0, 0, 0, 0.777);
+    width: 25%;
+}
+
+.body-content-left div{
+    margin: 20px 0px;
+}
+
+.body-content-left div a:hover{
+    background-color: rgba(215, 214, 214, 0.698);
+    cursor: pointer;
+}
+.body-content-left{
+    background-color: rgba(255, 255, 255, 0.385);
+    padding-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+}
+.body-content-left div a{
+    width: 100%;
+    display: block;
+}
+
+.body-content-left-avatar{
+    color: black;
+    padding: 5px 0px 5px 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body-content-left {
+        display: none;
+    }
+}
+
+.body-content-left button{
+    display: block;
+}
+
+.input-edit-group{
+    background-color: rgba(128, 128, 128, 0.18  );
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#family-tree-icon{
+    width: 46px;
+    margin: 10px;
+}
+
+
+.edit-member-ban-admin img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.edit-member-ban-admin{
+    padding-bottom: 10px;
+    height: 80px;
+}
+
+.edit-member-ban-admin input[type='radio']{
+    margin-left: 10px;
+}
+
+.modal-footer button{
+    background: linear-gradient(to right,#9370DB, #87CEEB);
+    border: none;
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556);
+}
+
+.body-content {
+    padding-top: 70px;
+    width: 100%;
+}
+
+.content-post {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-embedded {
+    width: 100%;
+    height: 970px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.calendar-embedded #calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.calendar-embedded #calendar{
+    background-color: #9fd7f930;
+}
+
+.fc th, .fc td{
+    border: 1px solid #00000021;
+}
+
+.fc-unthemed td.fc-today{
+    background-color: #c9dcf7;
+}

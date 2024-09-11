@@ -1,0 +1,539 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+.body-content{
+    padding-top: 70px;
+    width: 100%;
+}
+
+.content-post{
+    display: flex;
+    justify-content: center;
+}
+
+.status-post-1-header {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-post-1-header img {
+    margin-left: 3.7%;
+    margin-right: 100%;
+}
+
+.status-post-1 img {
+    margin: 0px;
+    width: 100%;
+}
+
+.status-post {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.status-post form img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-description{
+    font-family: var(--bs-body-font-family);
+    width: 90%;
+    margin-left:0px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.status-post input[type="text"] {
+    width: 80%;
+    border: none;
+    background-color: rgba(215, 214, 214, 0.698);
+    border-radius: 30px;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+.content-post-banner{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.banner-group img{
+    width: 100%;
+    height: auto;
+}
+
+.status-post-1{
+    display: inline-block;
+    width:70%;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .status-post-1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .status-post{
+        width: 100%;
+    }
+}
+
+.status-post-1 p{
+    padding: 10px 30px 0px 30px;
+    font-size: 130%;
+}
+
+.status-post-1 img{
+    width: 9%;
+    height: 9%;
+    border-radius: 50%;
+}
+
+#popUpStatusCreate .modal-body {
+    background-color: #80808010
+}
+
+#popUpStatusCreate .modal-body textarea {
+    width: 100%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.075);
+    border-radius: 0px 10px 0px 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#popUpStatusCreate .modal-body textarea:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+#popUpStatusCreate .body-content-left-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#popUpStatusCreate .body-content-left-avatar {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.row .comment{
+    margin: auto;
+    margin-top: -20px;
+    width: 70%;
+    background: white;
+    padding: 35px 20px 15px;
+    border-radius: 20px;
+}
+
+.commentItem{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.commentItem-content{
+    height: auto;
+    width: 85%;
+    margin: 1px 0;
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#f0f2f5;
+    border-radius: 20px;
+}
+
+.commentItem-content span{
+    font-weight: 700
+}
+.commentItem-content pre{
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.dd-comment{
+    margin: auto 10px;
+    padding: 3px;
+}
+
+.dd-comment i{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.dd-comment i:hover{
+    color: black;
+}
+.comment img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.formAddComment{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.formAddComment textarea{
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    width: 72%;
+    border-radius: 10px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.post-img img{
+    width: 100%;
+    border-radius: 0%;
+}
+
+.status-post-1-header{
+    margin-left: 30px;
+}
+
+.status-post-1-header img{
+    margin-left: 3.7%;
+    margin-right: 100%;
+}
+.status-post-1 img{
+    margin: 0px;
+    width: 100%;
+}
+.td-img{
+    width: 60px;
+    padding-right: 10px;
+}
+
+.like-btn {
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    border: none ;
+}
+
+.liked  i{
+    color: red;
+}
+
+.like-comment-saved{
+    margin: 0px 5%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-comment-saved button{
+
+    padding-right: 10px;
+    background-color: white;
+    width: 25%;
+    padding: 7px 10px;
+}
+
+.number-of-like-and-comments{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.like-comment-saved button i{
+    font-weight: 100;
+}
+
+.like-comment-saved button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.like-comment-saved span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.body-content-right > div{
+    margin: 50px 10px 0px 0px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.body-content-right a{
+    color: black;
+    text-decoration: none;
+}
+.body-content-right img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+
+/*css từ home*/
+/* Select event in calendar*/
+
+.calendar-embedded {
+    width: 100%;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.calendar-embedded #calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.access_event{
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px 0px;
+}
+.input-event-fre-re {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+select {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: rgba(128, 128, 128, 0.18);
+}
+/* Select event in calendar*/
+
+
+
+
+/*show detail event*/
+
+#title-date-now{
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#title-date-now-allevent{
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.show-event-description-father{
+    display: flex;
+    justify-content: center;
+}
+
+.show-event-description{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.show-event-description-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.show-event-description-title{
+    text-align: left;
+}
+
+.show-event-description-title > div:nth-child(1) h3{
+    margin: 0px;
+}
+
+.show-event-description-title > div:nth-child(2) h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.show-event-description-title > div:nth-child(2) span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.show-event-description-title > div:nth-child(3) p{
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.show-event-description-icon i{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/*select month css*/
+
+
+
+/* Style the dropdown button */
+.dropbtn {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:black;
+}
+
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
+
+.select-month-option-find input{
+    
+    padding: 5px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgba(215, 214, 214, 0.698);
+}
+
+.select-month-option-find button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(215, 214, 214, 0.8);
+}   
+
+.event-search-by-month {
+    margin-top: 20px;
+    height: 400px;
+    background-color: #e1e2e9;
+    border-radius: 10px ;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+
+.event-search-by-month-component{
+    padding: 10px;
+    background-color: #96b1d0;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    height: 120px;
+}
+
+.event-search-by-month-component div:nth-child(1){
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px
+    
+}
+
+.event-search-by-month-component div:nth-child(1) p{
+    font-size: 22px;
+    margin: 0px;
+    
+}
+
+.event-search-by-month-component div:nth-child(2){
+    position: absolute;
+    right: 10px;
+}
+
+.event-search-by-month-component span{
+    word-wrap: break-word;
+   
+}
+
+
+

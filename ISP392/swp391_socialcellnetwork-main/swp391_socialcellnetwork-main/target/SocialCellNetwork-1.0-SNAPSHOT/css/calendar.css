@@ -1,0 +1,14 @@
+
+.fc-day{
+    position: relative;
+}
+.lunar-date {
+    position: absolute;
+    font-size: 12px;
+    color: #888;
+    bottom: 0px;
+    left: 4px;
+}
+.fc-time{
+    display: none;
+}

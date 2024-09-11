@@ -1,0 +1,540 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+
+.body-content {
+    padding-top: 70px;
+    width: 100%;
+
+}
+
+.body-content-main{
+    margin-bottom: 50px;
+}
+
+.content-post {
+    display: flex;
+    justify-content: center;
+
+}
+
+.status-post {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.status-post form img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-description{
+    font-family: var(--bs-body-font-family);
+    width: 90%;
+    margin-left:0px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.status-post input[type="text"] {
+    width: 80%;
+    border: none;
+    background-color: rgba(215, 214, 214, 0.698);
+    border-radius: 30px;
+    height: 40px;
+    padding: 0px 20px;
+}
+.status-info{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.status-post-1 {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 700px) {
+    .status-post-1 {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .status-post {
+        width: 100%;
+
+    }
+}
+
+.status-post-1 table img,.comment img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.post-img img {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.status-post-1-header {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.status-post-1-header img {
+    margin-left: 3.7%;
+    margin-right: 100%;
+}
+
+.status-post-1 img {
+    margin: 0px;
+    width: 100%;
+}
+
+.status-post-1 .button-add-freind{
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.status-post-1 .button-delete{
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.status-post-1 .button-add-freind:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+    transform: scale(1.1);
+}
+.status-post-1 .button-delete:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.td-img {
+    width: 70px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.td-img1 {
+    width: 48px;
+    /*padding-right: 10px;*/
+    border-radius: 50%;
+}
+
+.td-username{
+    font-weight: 600;
+}
+
+.like-btn {
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    border: none;
+}
+
+.liked i {
+    color: red;
+}
+
+.like-comment-saved {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.like-comment-saved button {
+    padding-right: 10px;
+    background-color: white;
+    width: 25%;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+.number-of-like-and-comments {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 10px 30px 5px 30px;
+    font-size: 17px
+}
+
+.like-comment-saved button i {
+    font-weight: 100;
+}
+
+.like-comment-saved a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.like-comment-saved span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.comment{
+    margin: auto;
+    margin-top: -35px;
+    width: 70%;
+    background: white;
+    padding: 35px 20px 15px;
+    border-radius: 20px;
+}
+
+
+
+.commentItem{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.commentItem-content{
+    height: auto;
+    width: 85%;
+    margin: 1px 0;
+    padding: 10px;
+    background-color:#f0f2f5;
+    border-radius: 20px;
+}
+
+.commentItem-content span{
+    font-weight: 600
+}
+.commentItem-content pre{
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.dd-comment{
+    margin: auto 10px;
+    padding: 3px;
+}
+
+.dd-comment i{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.dd-comment i:hover{
+    color: black;
+}
+
+.formAddComment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formAddComment textarea{
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    width: 72%;
+    border-radius: 10px;
+    resize: none;
+    overflow-y: scroll;
+}
+#popUpStatusCreate .modal-body {
+    background-color: #80808010
+}
+
+#popUpStatusCreate .modal-body textarea {
+    width: 100%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.075);
+    border-radius: 0px 10px 0px 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#popUpStatusCreate .modal-body textarea:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+#popUpStatusCreate .body-content-left-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#popUpStatusCreate .body-content-left-avatar {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.op-up-up-coming-event {
+    display: flex;
+    padding: auto;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.op-up-up-coming-event div {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 20px 10px;
+}
+
+.op-up-up-coming-event div:hover {
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:black;
+}
+
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .dropdown {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .dropdown-content {
+        min-width: 100px;
+        top: 100%;
+        right: 0;
+    }
+}
+/*modal edit status */
+/* Input Style */
+.modal-body input[type="text"],
+.modal-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Focus Style */
+.modal-body input[type="text"]:focus,
+.modal-body textarea:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Textarea Style */
+.modal-body textarea {
+    resize: none;
+    margin-top: 20px;
+}
+
+/* Label Style */
+.modal-body label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Optional: Styling for the modal popup */
+.status-create-pop-up {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Optional: Style for the textarea with ID "largeText" */
+#largeText {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.content-post{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body-content-left {
+        display: none;
+    }
+}
+
+.content-post .status-create-pop-up .button-create{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-edit-status{
+    background-color: rgba(128, 128, 128, 0.18  );
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.button-save{
+    text-align: right;
+}
+
+.body-content-left-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status-post-image{
+    width: 100%
+}
+
+.modal-body input[type="file"]{
+    margin: 20px 0px;
+}
+
+.searchToTag{
+    display:flex;
+}
+.searchToTag input {
+    margin: 0px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid white;
+    width: 90%;
+}
+
+.searchToTag div {
+    border: 2px solid white;
+    background-color: #a2a2a2;
+}
+
+.searchToTag ul li i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.777);
+}
+
+.searchToTag ul li a {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+}
+
+.searchToTag ul li a:hover {
+    background-color: rgba(215, 214, 214, 0.698);
+}
+
+.navbar-list-option-mid ul li i {
+    font-size: 26px;
+    padding: 0px 45px;
+    color: white;
+}
+
+.navbar-list-option-mid ul li i:hover {
+    color: rgba(0, 0, 0, 0.777);
+}
+
+.searchToTag li {
+    display: inline-block;
+}
+
+#listmembers input{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.button-create {
+    display: flex;
+    justify-content: space-between;
+}

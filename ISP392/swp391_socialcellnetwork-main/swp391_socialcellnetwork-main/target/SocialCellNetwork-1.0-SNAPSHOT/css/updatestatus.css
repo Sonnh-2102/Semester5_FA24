@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding-margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(215, 214, 214, 0.556)
+}
+
+.body-content {
+    padding-top: 70px;
+    width: 100%;
+
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Input Style */
+.modal-body input[type="text"],
+.modal-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Focus Style */
+.modal-body input[type="text"]:focus,
+.modal-body textarea:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Textarea Style */
+.modal-body textarea {
+    resize: vertical;
+    margin-top: 20px;
+}
+
+/* Label Style */
+.modal-body label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Optional: Styling for the modal popup */
+.status-create-pop-up {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Optional: Style for the textarea with ID "largeText" */
+#largeText {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.content-post{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body-content-left {
+        display: none;
+    }
+}
+
+.content-post .status-create-pop-up .button-create{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-edit-status{
+    background-color: rgba(128, 128, 128, 0.18  );
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.button-save{
+    text-align: right;
+}
+
+.body-content-left-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status-post-image{
+    width: 100%
+}
+
+.modal-body input[type="file"]{
+    margin: 20px 0px;
+}
+
